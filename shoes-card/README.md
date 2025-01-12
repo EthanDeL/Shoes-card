@@ -2,7 +2,7 @@
 
 A modern and responsive shoes card using HTML, CSS, and JavaScript. This project presents an interactive and reactive shoe card with animation when the icon is clicked.
 
-
+<img width="1279" alt="preview" src="https://github.com/user-attachments/assets/3af341ba-e653-4ab2-97dc-a79e45698ca4" />
 
 ## Features
 
