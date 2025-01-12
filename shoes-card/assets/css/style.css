@@ -1,0 +1,140 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* VARIABLES */
+:root{
+    /* COLORS */
+    --primary-color: hsl(0, 0%, 6%);
+    --red-color: hsl(0, 74%, 50%);
+    --light-gray-color: hsl(0, 0%, 83%);
+    --white-color: hsl(0, 0%, 100%);
+    --card-color:hsl(240, 10%, 96%);
+
+    /* BACKGROUND COLORS */
+    --background-color:hsl(240, 77%, 86%);
+
+    /* FONT SIZE */
+    --icon-font-size : 1.2em;
+    --normal-font-size: 1em;
+    --medium-font-size: .875em;
+
+    /* FONT-WEIGHT */
+    --big-font-weight: 800;
+    --medium-font-weight: 600;
+    --middle-font-weight: 500;
+    --small-font-weigt: 400;
+}
+
+/* BASE */
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* BODY  */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+/* SHOES CARD */
+.card-shoes{
+    width: 350px;
+    height: 400px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: var(--card-color);
+    overflow: hidden;
+}
+.collection-card{
+    margin-bottom: 15px;
+    color: var(--light-gray-color);
+    font-size: var(--medium-font-size);
+    font-weight: var(--small-font-weigt);
+}
+.image-card-container{
+    width: 100%;
+    height: 250px;
+    border-radius: 24px;
+    background-color: var(--light-gray-color);
+}
+.image-card-container img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.card-details-shoes{
+    margin-top: 15px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--normal-font-size);
+}
+.card-price{
+    margin-top: 7px;
+    font-weight: var(--middle-font-weight);
+    display: flex;
+    align-items: center;
+}
+.card-icon-price {
+    margin-left: 3px;
+    font-size: var(--medium-font-size);
+    font-weight: var(--small-font-weigt);
+}
+.card-details-icon i{
+    padding: 6px;
+    border-radius: 15px;
+    font-size: var(--icon-font-size);
+    background-color: var(--light-gray-color);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.card-details-icon i:hover {
+    font-weight: var(--big-font-weight)
+}
+.card-details-icon i.heart-filled {
+    color: var(--red-color);
+    background-color: var(--white-color);
+}
+
+    /* RESPONSIVE */
+@media screen and (max-width: 650px){
+    .card-shoes{
+        width: 300px;
+        height: 350px;
+        padding: 20px;
+    }
+    .collection-card{
+        margin-bottom: 15px;
+        color: var(--light-gray-color);
+        font-weight: var(--small-font-weigt);
+    }
+    .image-card-container{
+        width: 100%;
+        height: 200px;
+    }
+    .image-card-container img{
+        padding: 0px;
+    }
+    .card-details-shoes{
+        margin-top: 15px;
+        padding: 0 10px;
+        font-size: .975em;
+    }
+    .card-price{
+        margin-top: 5px;
+    }
+}
