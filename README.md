@@ -7,7 +7,6 @@ A modern and responsive shoes card using HTML, CSS, and JavaScript. This project
 ## Features
 
 - 🌟 **Responsive Design**: Adapts seamlessly to various screen sizes and devices.
-- 🎨 **Elegant Animations**: Smooth transitions between login and sign-up sections.
 - ❤️ **Interactive Heart Icon**: The heart icon can be toggled to show if the product is liked, adding interactivity to the card.
 - 🛍️ **Dynamic Product Details**: Includes a price and icon to enhance the product information
 
